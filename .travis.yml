@@ -8,13 +8,14 @@ language: generic
 
 services:
   - docker
-
+arch:
+  - arm64
 env:
   global:
-  - DOCKER_REPO=jlesage/baseimage
+  - DOCKER_REPO=arwilczek90/baseimage-arm
   matrix:
   - DOCKER_TAG=alpine-3.10
-  - DOCKER_TAG=alpine-3.10-glibc
+  - DOCKER_TAG=alpine-3.10-gli-bc
   - DOCKER_TAG=alpine-3.9
   - DOCKER_TAG=alpine-3.9-glibc
   - DOCKER_TAG=alpine-3.8

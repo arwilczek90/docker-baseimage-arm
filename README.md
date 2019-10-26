@@ -1,5 +1,4 @@
 # A minimal docker baseimage to ease creation of long-lived application containers
-[![Docker Automated build](https://img.shields.io/docker/automated/jlesage/baseimage.svg)](https://hub.docker.com/r/jlesage/baseimage/) [![Build Status](https://travis-ci.org/jlesage/docker-baseimage.svg?branch=master)](https://travis-ci.org/jlesage/docker-baseimage)
 
 This is a docker baseimage that can be used to create containers for any
 long-lived application.
